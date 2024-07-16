@@ -1,1 +1,59 @@
+Image Searcher using Google Gemini Visioni Pro
+This project is a simple image searcher application using Google Gemini Visioni Pro, allowing users to search for images based on specific queries.
 
+Features
+Search by Query: Enter a query keyword to search for related images.
+Display Results: View a collection of images returned by the search.
+Expand for Details: Click on images to see details such as image size, format, and source.
+Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+Prerequisites
+Google Gemini Visioni Pro API Key: Obtain your API key from Google Gemini Visioni Pro (instructions provided by Google).
+Ruby: Ensure Ruby is installed on your system. You can download it from ruby-lang.org.
+Installing
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/image-searcher.git
+cd image-searcher
+Install dependencies using Bundler:
+
+bash
+Copy code
+bundle install
+Set up your API key:
+
+Create a .env file in the root directory.
+
+Add your Google Gemini Visioni Pro API key to the .env file:
+
+makefile
+Copy code
+GOOGLE_API_KEY=your_api_key_here
+Running the Application
+Start the application locally:
+
+bash
+Copy code
+ruby app.rb
+Open your web browser and go to http://localhost:4567 to use the image searcher.
+
+Usage
+Enter a search query in the provided input field.
+Press Enter or click the "Search" button to fetch and display related images.
+Click on any image to view additional details.
+Built With
+Google Gemini Visioni Pro
+Sinatra - Ruby web framework
+Bundler - Dependency management
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Inspired by the capabilities of Google Gemini Visioni Pro.
+Thank you to the contributors of Sinatra and Bundler for their excellent tools.
